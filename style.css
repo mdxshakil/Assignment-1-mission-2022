@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body p{
+    color: rgba(62, 62, 62, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px; 
+    text-align: justify;  
+    margin: 30px 0;
+}
+/* Header section */
+.header-section{
+    display: flex;
+}
+
+.header-title{
+    border-left: 5px solid #FF5959;
+    border-radius: 5px;
+    padding:0 10px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Yeseva One', cursive;
+    color: rgba(51, 51, 51, 1);
+    line-height: 40px;
+}
+
+#mission-2022-text{
+    color: rgba(255, 173, 90, 1);
+}
+
+.half-width{
+    width: 50%;
+    margin: 0 6%;
+}
+
+.half-width p{
+    color: rgba(62, 62, 62, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 30px 0;
+}
+.half-width img{
+    width: 80%;
+    margin-top: -10%;
+}
+.button{
+     text-decoration: none;
+     background-color: #FF5959;
+     color: white;
+     padding: 12px 37px;
+     border-radius: 5px;
+     font-size: 16px;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ /* My mission section */
+.my-mission-section{
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+ }
+
+.my-mission-section h2{
+    text-align: center;
+    color: #13103a;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+#mission-label-year{
+    color: #FFAD5A ;
+}
+.mission-wrapper{
+    display: flex;
+    padding: 0 100px;
+}
+
+.mission-1{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.mission-2{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.mission-3{
+    background-color: rgba(255, 244, 214, 1);                      ;
+}
+
+.missions{   
+    padding:0 30px; 
+    border-radius: 10px;
+    width: 30%;
+    margin: 0 20px;
+}
+
+.missions img{
+    width: 50%;
+    padding: 10px;
+}
+
+.missions h3{
+    font-size: 24px;
+}
+
+/* Develop section  */
+.develop-section{
+    display: flex;
+    margin-top: 150px;
+    padding: 40px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: 150px;
+    background-position-y: 100px;
+}
+
+.develop-section img{
+    width: 50%;
+    margin-left: 30%;
+}
+.develop-section-half-width{
+    width: 50%;
+    
+}
+.develop-community-title{
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+}
+
+.develop-section-half-width p{
+    margin-bottom: 30px;
+}
+
+/* Community section */
+.community-section{
+    display: flex;
+    margin-top: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: 950px;
+    background-position-y: 200px;
+}
+
+.community-half-width{
+    width: 50%;
+}
+
+.community-half-width img{
+    width: 50%;
+}
+
+.global-community-half-width{
+width: 35%;
+padding-left: 15%;
+padding-right: 5%;
+}
+
+/* Extra section */
+.extra-section{
+    display: flex;
+    margin-top: 150px;
+}
+
+.extra-individual-section{
+    width: 22%;
+    margin-left: 5%;
+    border: 3px solid rgba(79, 157, 166, 0.3);
+    padding:0 2%;
+    border-radius: 10px;
+}
+
+.extra-individual-section h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+     color: #333333;
+
+}
+
+.extra-individual-section h3{
+    text-align: center;
+    font-size: 40px;
+    color: #FFAD5A ;
+}
+
+/* footer */
+.footer{
+    margin-top: 150px;
+    background-color: black;
+    height: 200px;
+}
+
+.footer h3{
+    color: white;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    padding-top: 3%;
+}
+
+#footer-year{
+    color: #ff5959;
+}
+
+.footer p{
+    text-align: center;
+}
